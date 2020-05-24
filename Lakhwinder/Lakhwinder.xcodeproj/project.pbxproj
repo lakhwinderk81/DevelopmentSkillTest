@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16AD353F9399AEC84C8FAD4F /* Pods_Lakhwinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B168D7EC5BAB9C00E62FE2A7 /* Pods_Lakhwinder.framework */; };
+		537C99272477CF3600DBB10A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C99262477CF3600DBB10A /* AppDelegate.swift */; };
+		537C992C2477CF3600DBB10A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537C992A2477CF3600DBB10A /* Main.storyboard */; };
+		537C992F2477CF3600DBB10A /* Lakhwinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 537C992D2477CF3600DBB10A /* Lakhwinder.xcdatamodeld */; };
+		537C99312477CF3800DBB10A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 537C99302477CF3800DBB10A /* Assets.xcassets */; };
+		537C99342477CF3800DBB10A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 537C99322477CF3800DBB10A /* LaunchScreen.storyboard */; };
+		537C993F2477CF3800DBB10A /* LakhwinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C993E2477CF3800DBB10A /* LakhwinderTests.swift */; };
+		537C994A2477CF3800DBB10A /* LakhwinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C99492477CF3800DBB10A /* LakhwinderUITests.swift */; };
+		537C995B2477EE1100DBB10A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C995A2477EE1100DBB10A /* HomeVC.swift */; };
+		537C995D2479812E00DBB10A /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C995C2479812E00DBB10A /* AppManager.swift */; };
+		537C995F2479817400DBB10A /* ServerManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C995E2479817400DBB10A /* ServerManger.swift */; };
+		537C99612479851400DBB10A /* AppUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C99602479851400DBB10A /* AppUtilities.swift */; };
+		537C99642479BFFA00DBB10A /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C99632479BFFA00DBB10A /* HomeCell.swift */; };
+		537C99662479C01F00DBB10A /* HomeCollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C99652479C01F00DBB10A /* HomeCollCell.swift */; };
+		537C9969247A2A5400DBB10A /* LocationListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C9968247A2A5400DBB10A /* LocationListVC.swift */; };
+		537C996B247A31E800DBB10A /* LocationsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537C996A247A31E800DBB10A /* LocationsListCell.swift */; };
+		6B7B01DE802E5B182FABD486 /* Pods_LakhwinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B892F25A38FFE155F414F864 /* Pods_LakhwinderTests.framework */; };
+		C9FDEFB8F835AA59545CB157 /* Pods_LakhwinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE7A0152819271BC42348B6 /* Pods_LakhwinderUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		537C993B2477CF3800DBB10A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 537C991B2477CF3600DBB10A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 537C99222477CF3600DBB10A;
+			remoteInfo = Lakhwinder;
+		};
+		537C99462477CF3800DBB10A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 537C991B2477CF3600DBB10A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 537C99222477CF3600DBB10A;
+			remoteInfo = Lakhwinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04866E1F70E8B0AE42E52284 /* Pods-Lakhwinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lakhwinder.release.xcconfig"; path = "Target Support Files/Pods-Lakhwinder/Pods-Lakhwinder.release.xcconfig"; sourceTree = "<group>"; };
+		537C99232477CF3600DBB10A /* Lakhwinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lakhwinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		537C99262477CF3600DBB10A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		537C992B2477CF3600DBB10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		537C992E2477CF3600DBB10A /* Lakhwinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lakhwinder.xcdatamodel; sourceTree = "<group>"; };
+		537C99302477CF3800DBB10A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		537C99332477CF3800DBB10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		537C99352477CF3800DBB10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537C993A2477CF3800DBB10A /* LakhwinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LakhwinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		537C993E2477CF3800DBB10A /* LakhwinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LakhwinderTests.swift; sourceTree = "<group>"; };
+		537C99402477CF3800DBB10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537C99452477CF3800DBB10A /* LakhwinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LakhwinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		537C99492477CF3800DBB10A /* LakhwinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LakhwinderUITests.swift; sourceTree = "<group>"; };
+		537C994B2477CF3800DBB10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		537C995A2477EE1100DBB10A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		537C995C2479812E00DBB10A /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		537C995E2479817400DBB10A /* ServerManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManger.swift; sourceTree = "<group>"; };
+		537C99602479851400DBB10A /* AppUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtilities.swift; sourceTree = "<group>"; };
+		537C99632479BFFA00DBB10A /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		537C99652479C01F00DBB10A /* HomeCollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollCell.swift; sourceTree = "<group>"; };
+		537C9968247A2A5400DBB10A /* LocationListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListVC.swift; sourceTree = "<group>"; };
+		537C996A247A31E800DBB10A /* LocationsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListCell.swift; sourceTree = "<group>"; };
+		5747E8AE6D22B4CE01969D58 /* Pods-LakhwinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LakhwinderUITests.debug.xcconfig"; path = "Target Support Files/Pods-LakhwinderUITests/Pods-LakhwinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		901058F0A0381CFAEAC2A653 /* Pods-LakhwinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LakhwinderUITests.release.xcconfig"; path = "Target Support Files/Pods-LakhwinderUITests/Pods-LakhwinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B168D7EC5BAB9C00E62FE2A7 /* Pods_Lakhwinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lakhwinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B892F25A38FFE155F414F864 /* Pods_LakhwinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LakhwinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4BD1B2CB6B13B70038186B3 /* Pods-LakhwinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LakhwinderTests.debug.xcconfig"; path = "Target Support Files/Pods-LakhwinderTests/Pods-LakhwinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8D8BB8AFFDEB27BB777C93A /* Pods-Lakhwinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lakhwinder.debug.xcconfig"; path = "Target Support Files/Pods-Lakhwinder/Pods-Lakhwinder.debug.xcconfig"; sourceTree = "<group>"; };
+		EE7480710BDF0134C0834E56 /* Pods-LakhwinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LakhwinderTests.release.xcconfig"; path = "Target Support Files/Pods-LakhwinderTests/Pods-LakhwinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		FBE7A0152819271BC42348B6 /* Pods_LakhwinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LakhwinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		537C99202477CF3600DBB10A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AD353F9399AEC84C8FAD4F /* Pods_Lakhwinder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537C99372477CF3800DBB10A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7B01DE802E5B182FABD486 /* Pods_LakhwinderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537C99422477CF3800DBB10A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FDEFB8F835AA59545CB157 /* Pods_LakhwinderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D11DA30913CCF2273643F4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B168D7EC5BAB9C00E62FE2A7 /* Pods_Lakhwinder.framework */,
+				B892F25A38FFE155F414F864 /* Pods_LakhwinderTests.framework */,
+				FBE7A0152819271BC42348B6 /* Pods_LakhwinderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		537C991A2477CF3600DBB10A = {
+			isa = PBXGroup;
+			children = (
+				537C99252477CF3600DBB10A /* Lakhwinder */,
+				537C993D2477CF3800DBB10A /* LakhwinderTests */,
+				537C99482477CF3800DBB10A /* LakhwinderUITests */,
+				537C99242477CF3600DBB10A /* Products */,
+				B1DCB5F607F154668F0A4169 /* Pods */,
+				3D11DA30913CCF2273643F4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		537C99242477CF3600DBB10A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				537C99232477CF3600DBB10A /* Lakhwinder.app */,
+				537C993A2477CF3800DBB10A /* LakhwinderTests.xctest */,
+				537C99452477CF3800DBB10A /* LakhwinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		537C99252477CF3600DBB10A /* Lakhwinder */ = {
+			isa = PBXGroup;
+			children = (
+				537C99592477CFB500DBB10A /* ViewControllers */,
+				537C99582477CFA600DBB10A /* Models */,
+				537C99572477CF6A00DBB10A /* AppUtilities */,
+				537C99262477CF3600DBB10A /* AppDelegate.swift */,
+				537C992A2477CF3600DBB10A /* Main.storyboard */,
+				537C99302477CF3800DBB10A /* Assets.xcassets */,
+				537C99322477CF3800DBB10A /* LaunchScreen.storyboard */,
+				537C99352477CF3800DBB10A /* Info.plist */,
+				537C992D2477CF3600DBB10A /* Lakhwinder.xcdatamodeld */,
+			);
+			path = Lakhwinder;
+			sourceTree = "<group>";
+		};
+		537C993D2477CF3800DBB10A /* LakhwinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				537C993E2477CF3800DBB10A /* LakhwinderTests.swift */,
+				537C99402477CF3800DBB10A /* Info.plist */,
+			);
+			path = LakhwinderTests;
+			sourceTree = "<group>";
+		};
+		537C99482477CF3800DBB10A /* LakhwinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				537C99492477CF3800DBB10A /* LakhwinderUITests.swift */,
+				537C994B2477CF3800DBB10A /* Info.plist */,
+			);
+			path = LakhwinderUITests;
+			sourceTree = "<group>";
+		};
+		537C99572477CF6A00DBB10A /* AppUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				537C995C2479812E00DBB10A /* AppManager.swift */,
+				537C995E2479817400DBB10A /* ServerManger.swift */,
+				537C99602479851400DBB10A /* AppUtilities.swift */,
+			);
+			path = AppUtilities;
+			sourceTree = "<group>";
+		};
+		537C99582477CFA600DBB10A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		537C99592477CFB500DBB10A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				537C9967247A2A2D00DBB10A /* LocationList */,
+				537C99622479BFC600DBB10A /* Home */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		537C99622479BFC600DBB10A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				537C995A2477EE1100DBB10A /* HomeVC.swift */,
+				537C99632479BFFA00DBB10A /* HomeCell.swift */,
+				537C99652479C01F00DBB10A /* HomeCollCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		537C9967247A2A2D00DBB10A /* LocationList */ = {
+			isa = PBXGroup;
+			children = (
+				537C9968247A2A5400DBB10A /* LocationListVC.swift */,
+				537C996A247A31E800DBB10A /* LocationsListCell.swift */,
+			);
+			path = LocationList;
+			sourceTree = "<group>";
+		};
+		B1DCB5F607F154668F0A4169 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8D8BB8AFFDEB27BB777C93A /* Pods-Lakhwinder.debug.xcconfig */,
+				04866E1F70E8B0AE42E52284 /* Pods-Lakhwinder.release.xcconfig */,
+				D4BD1B2CB6B13B70038186B3 /* Pods-LakhwinderTests.debug.xcconfig */,
+				EE7480710BDF0134C0834E56 /* Pods-LakhwinderTests.release.xcconfig */,
+				5747E8AE6D22B4CE01969D58 /* Pods-LakhwinderUITests.debug.xcconfig */,
+				901058F0A0381CFAEAC2A653 /* Pods-LakhwinderUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		537C99222477CF3600DBB10A /* Lakhwinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537C994E2477CF3800DBB10A /* Build configuration list for PBXNativeTarget "Lakhwinder" */;
+			buildPhases = (
+				3CDAAB84FB94F3B52C687360 /* [CP] Check Pods Manifest.lock */,
+				537C991F2477CF3600DBB10A /* Sources */,
+				537C99202477CF3600DBB10A /* Frameworks */,
+				537C99212477CF3600DBB10A /* Resources */,
+				BD307F07FDCCBE7A239E69E5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lakhwinder;
+			productName = Lakhwinder;
+			productReference = 537C99232477CF3600DBB10A /* Lakhwinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		537C99392477CF3800DBB10A /* LakhwinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537C99512477CF3800DBB10A /* Build configuration list for PBXNativeTarget "LakhwinderTests" */;
+			buildPhases = (
+				8B6A77F523D7F7406519CF09 /* [CP] Check Pods Manifest.lock */,
+				537C99362477CF3800DBB10A /* Sources */,
+				537C99372477CF3800DBB10A /* Frameworks */,
+				537C99382477CF3800DBB10A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				537C993C2477CF3800DBB10A /* PBXTargetDependency */,
+			);
+			name = LakhwinderTests;
+			productName = LakhwinderTests;
+			productReference = 537C993A2477CF3800DBB10A /* LakhwinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		537C99442477CF3800DBB10A /* LakhwinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 537C99542477CF3800DBB10A /* Build configuration list for PBXNativeTarget "LakhwinderUITests" */;
+			buildPhases = (
+				1E9A1808C659D489F616849F /* [CP] Check Pods Manifest.lock */,
+				537C99412477CF3800DBB10A /* Sources */,
+				537C99422477CF3800DBB10A /* Frameworks */,
+				537C99432477CF3800DBB10A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				537C99472477CF3800DBB10A /* PBXTargetDependency */,
+			);
+			name = LakhwinderUITests;
+			productName = LakhwinderUITests;
+			productReference = 537C99452477CF3800DBB10A /* LakhwinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		537C991B2477CF3600DBB10A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = SkillTest;
+				TargetAttributes = {
+					537C99222477CF3600DBB10A = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					537C99392477CF3800DBB10A = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 537C99222477CF3600DBB10A;
+					};
+					537C99442477CF3800DBB10A = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 537C99222477CF3600DBB10A;
+					};
+				};
+			};
+			buildConfigurationList = 537C991E2477CF3600DBB10A /* Build configuration list for PBXProject "Lakhwinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 537C991A2477CF3600DBB10A;
+			productRefGroup = 537C99242477CF3600DBB10A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				537C99222477CF3600DBB10A /* Lakhwinder */,
+				537C99392477CF3800DBB10A /* LakhwinderTests */,
+				537C99442477CF3800DBB10A /* LakhwinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		537C99212477CF3600DBB10A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537C99342477CF3800DBB10A /* LaunchScreen.storyboard in Resources */,
+				537C99312477CF3800DBB10A /* Assets.xcassets in Resources */,
+				537C992C2477CF3600DBB10A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537C99382477CF3800DBB10A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537C99432477CF3800DBB10A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E9A1808C659D489F616849F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LakhwinderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CDAAB84FB94F3B52C687360 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lakhwinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B6A77F523D7F7406519CF09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LakhwinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD307F07FDCCBE7A239E69E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lakhwinder/Pods-Lakhwinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lakhwinder/Pods-Lakhwinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		537C991F2477CF3600DBB10A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537C996B247A31E800DBB10A /* LocationsListCell.swift in Sources */,
+				537C99662479C01F00DBB10A /* HomeCollCell.swift in Sources */,
+				537C995B2477EE1100DBB10A /* HomeVC.swift in Sources */,
+				537C99642479BFFA00DBB10A /* HomeCell.swift in Sources */,
+				537C992F2477CF3600DBB10A /* Lakhwinder.xcdatamodeld in Sources */,
+				537C995F2479817400DBB10A /* ServerManger.swift in Sources */,
+				537C9969247A2A5400DBB10A /* LocationListVC.swift in Sources */,
+				537C99272477CF3600DBB10A /* AppDelegate.swift in Sources */,
+				537C99612479851400DBB10A /* AppUtilities.swift in Sources */,
+				537C995D2479812E00DBB10A /* AppManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537C99362477CF3800DBB10A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537C993F2477CF3800DBB10A /* LakhwinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537C99412477CF3800DBB10A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537C994A2477CF3800DBB10A /* LakhwinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		537C993C2477CF3800DBB10A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 537C99222477CF3600DBB10A /* Lakhwinder */;
+			targetProxy = 537C993B2477CF3800DBB10A /* PBXContainerItemProxy */;
+		};
+		537C99472477CF3800DBB10A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 537C99222477CF3600DBB10A /* Lakhwinder */;
+			targetProxy = 537C99462477CF3800DBB10A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		537C992A2477CF3600DBB10A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				537C992B2477CF3600DBB10A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		537C99322477CF3800DBB10A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				537C99332477CF3800DBB10A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		537C994C2477CF3800DBB10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		537C994D2477CF3800DBB10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		537C994F2477CF3800DBB10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D8BB8AFFDEB27BB777C93A /* Pods-Lakhwinder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RH3GSW55B;
+				INFOPLIST_FILE = Lakhwinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sample.Lakhwinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		537C99502477CF3800DBB10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04866E1F70E8B0AE42E52284 /* Pods-Lakhwinder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RH3GSW55B;
+				INFOPLIST_FILE = Lakhwinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sample.Lakhwinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		537C99522477CF3800DBB10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4BD1B2CB6B13B70038186B3 /* Pods-LakhwinderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RH3GSW55B;
+				INFOPLIST_FILE = LakhwinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sample.LakhwinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lakhwinder.app/Lakhwinder";
+			};
+			name = Debug;
+		};
+		537C99532477CF3800DBB10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE7480710BDF0134C0834E56 /* Pods-LakhwinderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RH3GSW55B;
+				INFOPLIST_FILE = LakhwinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sample.LakhwinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lakhwinder.app/Lakhwinder";
+			};
+			name = Release;
+		};
+		537C99552477CF3800DBB10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5747E8AE6D22B4CE01969D58 /* Pods-LakhwinderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RH3GSW55B;
+				INFOPLIST_FILE = LakhwinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sample.LakhwinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lakhwinder;
+			};
+			name = Debug;
+		};
+		537C99562477CF3800DBB10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901058F0A0381CFAEAC2A653 /* Pods-LakhwinderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RH3GSW55B;
+				INFOPLIST_FILE = LakhwinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sample.LakhwinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lakhwinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		537C991E2477CF3600DBB10A /* Build configuration list for PBXProject "Lakhwinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537C994C2477CF3800DBB10A /* Debug */,
+				537C994D2477CF3800DBB10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537C994E2477CF3800DBB10A /* Build configuration list for PBXNativeTarget "Lakhwinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537C994F2477CF3800DBB10A /* Debug */,
+				537C99502477CF3800DBB10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537C99512477CF3800DBB10A /* Build configuration list for PBXNativeTarget "LakhwinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537C99522477CF3800DBB10A /* Debug */,
+				537C99532477CF3800DBB10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		537C99542477CF3800DBB10A /* Build configuration list for PBXNativeTarget "LakhwinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				537C99552477CF3800DBB10A /* Debug */,
+				537C99562477CF3800DBB10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		537C992D2477CF3600DBB10A /* Lakhwinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				537C992E2477CF3600DBB10A /* Lakhwinder.xcdatamodel */,
+			);
+			currentVersion = 537C992E2477CF3600DBB10A /* Lakhwinder.xcdatamodel */;
+			path = Lakhwinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 537C991B2477CF3600DBB10A /* Project object */;
+}
