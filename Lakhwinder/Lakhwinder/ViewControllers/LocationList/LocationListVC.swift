@@ -69,8 +69,8 @@ extension LocationListVC: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete{
             if AppManager.shared.deleteLocation(for: locations[indexPath.row]["location_name"].stringValue){
-                tableView.deleteRows(at: [indexPath], with: .none)
                 self.locations = AppManager.shared.fetchAllDetails()
+                self.tblLocations?.reloadData()
             }
         }
     }
